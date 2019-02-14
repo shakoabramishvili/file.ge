@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #ececec;
+    font-family: sans-serif;
+}
+.main {
+    width: 42%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px 4px rgb(192, 191, 191);
+}
+.addv {
+    position: fixed;
+    top: 70px;
+    left: 15px;
+    width: 150px;
+    height: 500px;
+    background: black;
+}
+.right {
+    right: 15px;
+    left: auto;
+}
+.header {
+    width: 100%;
+    padding: 40px 10px;
+    margin: 0 auto;
+    display: block;
+}
+.addv2 {
+    width: 94%;
+    height: 90px;
+    margin: 0px auto;
+}
+.croco1 {
+    width: 94%;
+    height: 90px;
+    margin: 0px auto;
+    background-image: url(img/croco2.jpg);
+    overflow: hidden;
+}
+.croco2 {
+    width: 100%;
+    height: 90px;
+    background-image: url(img/croco1.jpg);
+    position: relative;
+
+    animation-name: croco;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes croco {
+    0% { transform: translate(0, 0);}
+    20% { transform: translate(0, 0);}
+    40% { transform: translate(732px, 0);}
+    60% { transform: translate(732px, 0);}
+    80% { transform: translate(0, 0);}
+    100% { transform: translate(0, 0);}
+  }
+.addspace1 {
+    font-size: 50px;
+    font-style: italic;
+    line-height: 90px;
+    white-space: nowrap;
+    animation: rightThenLeft 4s linear;
+}
+.logo {
+    padding: 15px 0 0 0;
+}
+img {
+    width: 100%;
+}
+.navigation {
+    width: 35%;
+    float: right;
+    padding: 10px;
+}
+.line {
+    border: 0;
+    background: #ccc;
+    height: 1px;
+}
+h2 {
+    color: #999;
+    font-size: 18px;
+    padding: 3px 0;
+}
+.search {
+    padding-top: 6px;
+}
+.search-bar {
+    height: 21px;
+}
+.search-but {
+    border-width: 2px;
+    padding: 1px 6px;
+    text-align: center;
+}
+.add1-nav {
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.list-title {
+    display: block;
+    color: #999;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 5px 0 8px 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 4px;
+}
+.list-item {
+    list-style: none;
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+}
+.list-item-mean a {
+    text-decoration: none;
+    margin: 5px 0 8px 0;
+    border-bottom: 1px solid #ccc;
+    padding: 4px;
+    width: 100%;
+    display: block;
+    color: #ff7800;
+}
+.list-item-mean:before {
+    content: url(img/navbulle.gif);
+    display: block;
+    float: left;
+    line-height: 26px;
+    padding: 0 10px 0 15px;
+}
+.list-item-mean a:hover {
+    background: #ccc;
+    color: #666;
+}
+.add2-nav {
+    width: 62%;
+    margin: 30px auto;
+}
+.gif {
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    
+}
+.gif-img {
+    display: inline-block;
+    width: 100px;
+    margin: 0 10px;
+}
+.counter {
+    display: block;
+    width: 100%;
+    margin: 20px auto;  
+}
+.count {
+    display: block;
+    width: 88px;
+    margin: 10px auto; 
+}
+.online {
+    width: 80px;
+}
+.article {
+    width: 65%;
+    padding: 30px 20px;
+}
+.card {
+    width: 100%;
+    margin-bottom: 40px;
+}
+.item-title a {
+    font-size: 15px;
+    color: #ff7800;
+    text-decoration: none;
+}
+.item-title a:hover {
+    text-decoration: underline;
+}
+.item-cat {
+    display: block;
+    font-size: 12px;
+    color: #999;
+    padding: 5px 0;
+    border-top: 1px solid #ccc;
+    margin-top: 5px;
+}
+.item-cat a {
+    text-decoration: none;
+    color: #ff7800;
+    cursor: pointer;
+}
+.item-cat a:hover {
+    text-decoration: underline;
+}
+.movie {
+    width: 100%;
+    height: auto;
+    padding: 5px 10px;
+}
+.item-desc {
+    margin-top: 5px;
+}
+.item-desc-list {
+    display: block;
+    font-size: 12px;
+    color: #666;
+    padding: 1px 0;
+    text-align: justify;
+}
+.item-desc-raiting {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    color: #2BA94F;
+    padding-top: 10px;
+}
+.item-desc-download {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.item-desc-download a {
+    text-decoration: none;
+    color: #ff7800;
+}
+.item-desc-download a:hover {
+    text-decoration: underline;
+}
+.item-desc-foot {
+    display: block;
+    font-size: 12px;
+    color: #666;
+    padding-top: 10px;
+}
+
